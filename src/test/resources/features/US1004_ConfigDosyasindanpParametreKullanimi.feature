@@ -1,0 +1,1 @@
+Feature: US1004 Kullanici parametre ile configuration file'i kullanabilmeli
