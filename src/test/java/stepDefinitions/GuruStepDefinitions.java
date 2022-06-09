@@ -39,6 +39,7 @@ public class GuruStepDefinitions {
             List<WebElement> istenenSutundakiElementler=
                     Driver.getDriver().findElements(By.xpath("//tbody//tr//td["+istenenBaslikIndexi+"]"));
             for (WebElement each:istenenSutundakiElementler
+
             ) {
                 System.out.println(each.getText());
             }
