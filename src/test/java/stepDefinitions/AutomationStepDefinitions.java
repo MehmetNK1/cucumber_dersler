@@ -1,5 +1,6 @@
 package stepDefinitions;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import pages.AutomationPage;
@@ -32,4 +33,8 @@ public class AutomationStepDefinitions {
 
     }
 
+    @And("user Create and account bolumune email adresi girer")
+    public void userCreateAndAccountBolumuneEmailAdresiGirer() {
+
+    }
 }
